@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head><title>Lesson 2|TLE</title>
+<style type="text/css">
+body {background-image: url(ICTBG.jpg); background-size: cover; background-repeat: no-repeat;}
+.bg{ background-color:rgba(0, 0, 0, 0.3); backdrop-filter:blur(20px); height:69px; width:400px; border:1px solid gray; border-radius: 8px; text-align:Center; color:White; text-shadow:1px 1px 5px black;}
+.styles{background-color:rgba(0, 0, 0, 0.3); backdrop-filter:blur(20px); border:1px solid gray; border-radius:8px; color:white; text-shadow:1px 1px 5px black; padding:5px;}
+.column{flex:1; padding:15px;}
+</style>
+</head>
+<body>
+<h3 class="bg" style="margin:auto; margin-top:15px; height:40px; width:200px; line-height:40px;">Lesson 2</h3>
+<h1 class="bg" style="font-size:70px; margin:auto; margin-top:15px;">Style Sheets</h1><br><br>
+<br><div style=" display:flex; flex-direction:column; align-items:center; justify-content:center; gap:20px;">
+<p class="bg" style="font-size:22px; line-height:1.4; width:700px; color:#f2f2f2; padding:15px; text-align:center; height:150px;"><b>Structure of CSS</b><br>Declaration is a single instruction that defines the style of an element.<br> Selector - chooses the HTML element to style.<br> Property - the style attribute you want to modify.<br>Value - The setting of the attribute you want to apply to the element property.
+</p><p class="bg" style="font-size:22px; line-height:1.4; width:700px; color:#f2f2f2; padding:15px; text-align:center; height:125px;">A set of instructions to a Web browser on how to display various elements on a Web page is known as a style sheet. Every CSS, whether it is contained in a .css file, or embedded in the head element of an HTML document, is a series of instructions called statements.</p>
+</div>
+<br><br><h3 class="bg" style="margin:auto; width:700px; margin-top:15px; font-size:50px;">Three Kinds of CSS</h3><br><br><br><div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(250px, 1fr)); gap:25px; max-width:1000px; margin:auto; text-align:center;">
+<div class="styles"><p style="font-size:22px; font-weight:bold;">External Style Sheets</p><p style="font-size:16px;">It allows you to develop a consistent style across pages and change the layout of your entire website by simply changing the external style sheet. It uses a separate css file and by linking it to an HTML file.<br>&lt; link rel=&quot;stylesheet&quot; href=&quot;sample&period;css&quot; type=&quot;text/css&quot;&gt;</p></div>
+<div class="styles"><p style="font-size:22px; font-weight:bold;">Internal Style Sheets</p><p style="font-size:16px;">Embedded styles or Internal style sheets are defined by the container tag &lt;style&gt;&lt;/style&gt; and placed within the head part of the HTML file. It provides style to the whole HTML file</p></div>
+<div class="styles"><p style="font-size:22px; font-weight:bold;">Inline Style Sheets</p><p style="font-size:16px;">We can define the style for a single element using the style attribute. There are various tags that have the style attribute that would represent its value.</p></div></div><br><br>
+<p class="bg" style="margin:auto; width:800px; height:45px; font-size: 20px; line-height:20px;">External can't overwrite other style sheets. Internal can overwrite external. Inline overwrites both external and internal style sheets.</p><br><br><p class="bg" style="margin:auto; width:800px; height:45px; font-size: 20px; line-height:20px;">In HTML, comments are defined using &lt;!-- --&gt; while CSS comments are defined using /&ast; &ast;/.</p><br><br><br>
+</body>
+</html>

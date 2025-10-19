@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lesson 3</title>
+
+<style type="text/css">
+body {
+  background-image: url(ICTBG.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Times New Roman";
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+
+/* Embedded CSS box */
+.dbg {
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(20px);
+  border: 1px solid white;
+  border-radius: 8px;
+  text-align: center;
+  width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* Image hover effect */
+.in {
+  width: 300px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.in:hover {
+  transform: scale(1.05);
+}
+
+/* External CSS simulation */
+.bg {
+  background-color: rgba(0, 128, 0, 0.8);
+  border: 1px solid gray;
+  border-radius: 8px;
+  width: 700px;
+  text-align: center;
+  margin: 40px auto;
+  padding: 20px;
+  color: white;
+}
+
+</style>
+</head>
+
+<body>
+<h3 class="dbg" style="margin:auto; margin-top:15px; height:40px; width:200px; line-height:40px;">Lesson 3</h3>
+<h1 class="dbg" style="font-size:70px; margin:auto; margin-top:15px; width:600px;">Using Style Sheets</h1><br><br>
+  <div style="
+    background-color:rgba(0, 0, 0, 0.3);
+    backdrop-filter:blur(20px);
+    width:700px;
+    border:1px solid gray;
+    border-radius:8px;
+    text-align:center;
+    color:purple;
+    text-shadow:1px 1px 5px black;
+    margin:40px auto;
+    padding:20px;
+  ">
+    <h3>Using Inline CSS</h3>
+    <p>I added a border around this text to make it look different from the background. 
+    While I also used inline to style the image below:</p>
+    <img src="insample.png" alt="example" style="margin:auto; width:500px; border-radius:8px; display:block;">
+  </div>
+
+  <div class="dbg">
+    <h3>Using Embedded CSS</h3>
+    <p>The border around this text is white with transparency. The image enlarges on hover.</p>
+    <img src="emsample.png" alt="example" class="in">
+  </div>
+
+  <div class="bg">
+    <h3>Using External CSS</h3>
+    <p>The border and image styles are applied from the Background.css file.</p>
+    <img src="exsample.png" alt="example" style="width:500px; border-radius:8px;">
+  </div>
+
+</body>
+</html>
