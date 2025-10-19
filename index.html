@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head><title>E-Portfolio, Aguilar</title>
+<style type="text/css">*{margin:0; padding:0; box-sizing:border-box; font-family:Times New Roman; font-weight:lighter;}
+body{background:url(HPBG.png); background-size:cover;}
+.header {padding:1px; background:#1abc9c; color:white; font-size: 20px;}
+.flex{display:flex; align-items:center;}
+.container1{width:100%; height:80%; color:white; background:#47476B;}
+nav{margin:0 30px;}
+ul{list-style:none; margin:20px; font-size:20px;}
+li{margin:0 10px; cursor:pointer;}
+.bg{ background-color:rgba(0, 0, 0, 0.3); backdrop-filter:blur(20px); height:69px; width:400px; border:1px solid gray; border-radius: 8px; text-align:Center; font-size:70px; margin:auto; color:White;   line-height:69px; text-shadow:1px 1px 5px black;}
+.flex-container{display:flex; justify-content:space-between; gap:20px;}
+.column{flex:1; padding:15px;}
+.zoom{width:200px; transition:0.3s; cursor:pointer;}
+.zoom:hover{transform:scale(1.05);}
+.lightbox{display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.85); justify-content:center; align-items:center; z-index:999;}
+.lightbox:target{display:flex;}
+.lightbox img{max-width:80%; max-height:80%; border-radius:10px; box-shadow:0 0 20px rgba(255,255,255,0.3);}
+.xit{position:absolute; top:20px; right:40px; font-size:50px; color:white; text-decoration:none; font-weight:bold;}
+.xit:hover{color:#ff5050;}
+.friendcircle{background-color:rgba(0, 0, 0, 0.3); backdrop-filter:blur(20px); border:1px solid gray; border-radius:8px; color:white; text-shadow:1px 1px 5px black; padding:5px;}
+.dropdown{position:relative; display:inline-block; border-radius:5px;}
+.dropbtn{background-color:#47476b; color:white; border:none; border-radius:5px; cursor:pointer; font-size:20px;}
+.dropdown-content{display:none; position:absolute; background-color:#9494b8; min-width:160px; box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2); z-index:1;}
+.dropdown-content a {color:black; padding:12px 16px; text-decoration:none; display:block;}
+.dropdown-content a:hover {background-color: #7575a3;}
+.dropdown:hover .dropdown-content {display: block; border-radius:5px;}
+.dropdown:hover .dropbtn {background-color: #33334d;}
+</style>
+</head>
+<body style="font-family:Times New Roman;">
+<div id="Family" class="lightbox">
+<a href="#" class="xit">×</a>
+<img src="FamHP.png" alt="Family">
+</div>
+<div id="Futbol" class="lightbox">
+<a href="#" class="xit">×</a>
+<img src="BBGHP.png" alt="Football"></div>
+<div id="Gitara" class="lightbox"><a href="#" class="xit">×</a><img src="Guitar2HP.png" alt="Guitar"></div>
+<div id="Kiel" class="lightbox"><a href="#" class="xit">×</a><img src="MeHP.png" alt="Kiel Aguilar"></div>
+<div id="Blck" class="lightbox"><a href="#" class="xit">×</a><img src="BLKNHP.png" alt="Balkan"></div>
+<div id="Frdlty" class="lightbox"><a href="#" class="xit">×</a><img src="FDHP.png" alt="Fairdelity"></div>
+<div id="3-1" class="lightbox"><a href="#" class="xit">×</a><img src="TOHP.png" alt="3 people, 1 braincell"></div>
+<div class="container1 flex">
+<nav class="flex">
+<h1>My ELECTRIC-PORTFOLIO</h1>
+<ul class="flex">
+<li><div class="dropdown">
+<button class="dropbtn">TLE Lessons</button>
+<div class="dropdown-content">
+<a href="Lesson1.html" target="_blank">Lesson 1</a>
+<a href="Lesson2.html" target="_blank">Lesson 2</a>
+<a href="Lesson3.html" target="_blank">Lesson 3</a>
+<a href="Lesson4.html" target="_blank">Lesson 4</a>
+<a href="Lesson5.html" target="_blank">Lesson 5</a>
+<a href="Lesson6.html" target="_blank">Lesson 6</a>
+ </div>
+</div></li>
+<li><div class="dropdown">
+<button class="dropbtn">School Events</button>
+<div class="dropdown-content">
+<a href="BNW.html" target="_blank">Buwan ng Wika</a>
+<a href="Intrams.html" target="_blank">Intramurals</a>
+<a href="SCI.html" target="_blank">Science Month</a>
+<a href="APM.html" target="_blank">AP Month</a>
+<a href="TD.html" target="_blank">Teacher's Day</a>
+ </div>
+</div></li>
+<li><div class="dropdown">
+<button class="dropbtn">AP Lessons</button>
+<div class="dropdown-content">
+<a href="APLesson1.html" target="_blank">Lesson 1</a>
+<a href="APLesson2.html" target="_blank">Lesson 2</a>
+<a href="APLesson3.html" target="_blank">Lesson 3</a>
+<a href="APLesson4.html" target="_blank">Lesson 4</a>
+<a href="APLesson5.html" target="_blank">Lesson 5</a>
+<a href="APLesson6.html" target="_blank">Lesson 6</a>
+ </div>
+</div></li>
+</ul>
+</div>
+<br><h3 class="bg"> WELCOME</h3><br><br>
+<h3 class="bg" style="align-items:center; display:flex; font-size:45px; line-height:40px; width:900px; height:250px;"><a href="#Kiel"><img class="zoom" src="MeHP.png" alt="Portrait photo of Ezekiel" style="float:left; width:200px; height:250px; border-style:none; border-radius:8px;"> </a>About Me:<br>Hi, I am Ezekiel Bjorn Balingit Aguilar. I was born on January 14, 2011 at Las Pinas Doctors Hospital and I am currently 14 years old.</h3>
+<br><br>
+<div class="flex-container"><div class="column">
+<h3 class="bg" style="font-size:25px; line-height:20px; width:600px; height:250px; color:#f2f2f2; margin:15px"><a href="#Gitara"><img class="zoom" src="Guitar2HP.png" alt="GUITAR" style="float:left; width:325px; height:250px; border-style:none; border-radius:8px;"></a>I have many "hobbies" but my two major hobbies are playing the guitar and playing football.<br><br>I am the lead guitarist of my band <a href="https://www.facebook.com/profile.php?id=61573508242423" target="blank" style="text-decoration:none;">"Padayon"</a>. <br> have always loved playing the guitar because I also love music. My favorite genre is rock.</h3></div><div class="column">
+<h3 class="bg" style="font-size:25px; line-height:20px; width:600px; height:250px; color:#f2f2f2; margin:15px;"> <a href="#Futbol"><img class="zoom" src="BBGHP.png" alt="FOOTBALL" style="float:right; width:325px; height:250px; border-style:none; border-radius:8px;"></a>My other major hobby is playing football. I actually dream of being professional in football. It is my dream career. <br><br>My favorite club is <br>FC Barcelona and the player I look up to is Neymar Jr.</h3></div></div>
+<br><br><h3 class="bg">My Family</h3><br>
+<p class="bg" style="font-size:20px; line-height:20px; width:900px; height:225px; text-align:left; text-indent:80px;"> <a href="#Family"><img src="FamHP.png" alt="Family Pic" class="zoom" style="border-style:none; border-radius:8px; float:left; width:300px; height:225;"></a>This is my family. We consist of 3 boys and 2 girls. I am the middle child of the family. I have an older brother with a 3 year gap and a younger sister with also a 3 year gap. My family loves music. My mom and dad are actually introverts in there early years. They met at a charity place. My brother is also kind of an introvert and he influenced most of the things I like growing up. My sister is an ambivert. She is a musician because she can sing and play instruments. What makes it weird is that I'm the only extrovert in my family. As a family, we love to watch movies at night and going out to malls to do different celebrations like an anniversary and a birthday. We are all close to each other. I am grateful to God for granting me a supporting, caring, and understanding family.</p><br><br><br><h3 class="bg" style="width:700px; margin-top:15px;">Circle of Friends</h3><br><p class="bg" style="width:800px; height:25px; font-size: 20px; line-height:20px;">I would say I have multiple friends, but these are my 3 main friend groups in this present time</p><br>
+<div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(250px, 1fr)); gap:25px; max-width:1000px; margin:auto; text-align:center;">
+<div class="friendcircle"><p style="font-size:22px; font-weight:bold;">BLKN</p><br><a href="#Blck"><img class="zoom" src="BLKNHP.png" alt="blkn" style="width:100%; border-radius:8px;"></a><p style="font-size:16px;"><br>BLKN was formed when I was in grade 7. It was my first friend group. We all love music and OPM songs. At the end of every quarter, we will usually hangout at the mall. Even though, one them is no longer in this school, we are still friends until now.</p></div>
+<div class="friendcircle"><p style="font-size:22px; font-weight:bold;">Fairdelity</p><br><a href="#Frdlty"><img class="zoom" src="FDHP.png" alt="fairdelity" style="width:100%; border-radius:8px;"></a><p style="font-size:16px;"><br>Fairdelity is a friend group consisting of people from Fairness and Fidelity, hence the name. We were all in Connection last year but got separated in Grade 9. We socialize through academics and school. We also hangout whenever we are free.</p></div>
+<div class="friendcircle"><p style="font-size:22px; font-weight:bold;">3 people, 1 braincell</p><br><a href="#3-1"><img class="zoom" src="TOHP.png" alt="3-1" style="width:100%; border-radius:8px;"></a><p style="font-size:16px;"><br>3 people and 1 braincell is the most recent group so far because it formed this grade 9. We first started to socialize when us three were seatmates. We all our instrumentalists and we bond over music. We also eat together even though we are no longer seatmates.</p></div></div><br><br>
+<div class="bg">
+<video src="bond.mp4" controls width="500px">
+</video>
+</div>
+<br>
+</body>
+</html>
